@@ -1,0 +1,57 @@
+@keyframes blinkColor {
+    0% {
+      color: rgb(255, 111, 0);
+    }
+    25% {
+      color: red;
+    }
+    50% {
+      color: green;
+    }
+    75% {
+      color: blue;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  
+.footer {
+    background-color: #050404;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social .icon {
+    
+    width:30px ;
+    
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+    
+.donation a {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+    animation: blinkColor 4s infinite; /* Adjust the duration as needed */
+  }
+  

@@ -1,0 +1,40 @@
+/* home-styles.css */
+
+/* Container Styles */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Button Styles */
+.cool-button, .awesome-button {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.cool-button:hover {
+    background-color: #3498db; /* Slightly darker green on hover */
+}
+
+.awesome-button:hover {
+    background-color: #3498db; /* Slightly darker blue on hover */
+}
+
+/* Additional Styling */
+.special-text {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
