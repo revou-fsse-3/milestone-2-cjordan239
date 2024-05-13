@@ -1,9 +1,12 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import React from 'react';
 import './style-home.css';
+import NewsItem from '../NewsItem';
 
 const Home = () => {
     const navigate = useNavigate();
+
+
 
     return (
         <div className='home-container'>

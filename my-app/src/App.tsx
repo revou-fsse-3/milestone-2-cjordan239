@@ -12,14 +12,15 @@ function App() {
     <BrowserRouter>
     <PublicLayout />
       <Routes>
-        <Route path='home' element={<HomePage />} />
-        <Route path='register' element={<RegisterPage />} />
-        <Route path='login' element={<LoginPage />} />
-        <Route path='gadget' element={<NewsList topic={'gadget'} />} />
-        <Route path='game' element={<NewsList topic={'game'} />} />
-        <Route path='football' element={<NewsList topic={'football'} />} />
-        <Route path='food' element={<NewsList topic={'food'} />} />
-        <Route path='photography' element={<NewsList topic={'photography'} />} />
+
+        <Route path='/home' element={<HomePage />} />
+        <Route path='/register' element={<RegisterPage />} />
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/gadget' element={<NewsList topic={'gadget'} />} />
+        <Route path='/game' element={<NewsList topic={'game'} />} />
+        <Route path='/football' element={<NewsList topic={'football'} />} />
+        <Route path='/food' element={<NewsList topic={'food'} />} />
+        <Route path='/photography' element={<NewsList topic={'photography'} />} />
         
       </Routes>
     </BrowserRouter>
